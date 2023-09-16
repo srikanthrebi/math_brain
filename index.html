@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Game</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <section class="vh-100">
+         
+
+        <div class="text-md-center">
+          <button class="px-4 py-2" style="margin: 0px auto;" id="start">start Game</button>
+          <h2 id="total_score" class="text-md-center"></h2>
+    
+        </div>
+           <div class="container">
+
+              <div class="row">
+                 <div class="col-md-3">
+                      <div class="card">
+                           <div id="fnumUi" class="card-body display-1 text-md-center" >4</div>
+                      </div>
+                 </div>
+                 <div class="col-md-3">
+                      <div class="card">
+                           <div id="opra"  class="card-body display-1 text-md-center" >+</div>
+                      </div>
+                 </div>
+                 <div class="col-md-3">
+                      <div class="card">
+                           <div id="snumUi"  class="card-body display-1 text-md-center" >4</div>
+                      </div>
+                 </div>
+                 <div class="col-md-3">
+                      <div class="card">
+                           <!-- <div class="card-body display-1 text-md-center" > -->
+
+                            <input type="text" id="user_input" class="form-control">
+                           
+                           
+                      </div>
+                 </div>
+              </div>
+
+
+              <div class="row mt-5">
+                 <div class="col-md-4">
+                      <div class="card">
+                        <h1 class="card-title text-md-center mt-2"> Timer</h1>
+                           <div id="time" class="card-body display-1 text-md-center" >30</div>
+                      </div>
+                 </div>
+                 <div class="col-md-4">
+                      <div class="card">
+                        <h1 class="card-title text-md-center mt-2"> Response</h1>
+
+                           <div id="response" class="card-body display-1 text-md-center" ></div>
+                      </div>
+                 </div>
+                 <div class="col-md-4">
+                      <div class="card">
+                        <h1 class="card-title text-md-center mt-2"> Score</h1>
+
+                           <div id="score" class="card-body display-1 text-md-center" ></div>
+                      </div>
+                 </div>
+                 
+              </div>
+           </div>
+          
+    </section>
+    <script src="js/game.js"></script>
+</body>
+</html>
+
